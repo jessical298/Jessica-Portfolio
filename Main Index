@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontawesome-free-6.6.0-web/css/all.css">
+    <title>Jessica Portfolio</title>
+</head>
+ 
+<body>
+    <header>
+        <h1>Jessica Zhen Luc</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Interactive Design-Graphic Design Student at <a href="https://sait.ca" target="_blank">SAIT</a></h2>
+            <p> "Did you ever replay a conversation in your head and wonder if you sounded like an idiot?" - Eddie Diaz (9-1-1)</p>
+            <p>There are some of my favorite shows that I am watching right now.</p>
+            <ul>
+                <li>9-1-1</li>
+                <li>9-1-1 Lonestar</li>
+                <li>Broklynn 99</li>
+                <li>Rookie</li>
+                <li>Station 19</li>
+            </ul>
+            <em>My favorite show one right now is 9-1-1.</em> <br><br><br>
+        </section>
+        <br>
+        <section>
+            <h2>Class schedule</h2>
+            <table>
+            </table>
+        </section>
+        <section>
+            <p>I would live to hear from you.</p>
+            <form>
+                <label for="name">Your name</label>
+                <input type="text" placeholder="Name">
+                <br>
+                <label for="age">Age</label>
+                <input type="number" placeholder="Age">
+                <br>
+                <label for="Email">Email</label>
+                <input type="text" placeholder="Email">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Jessica Luc</p>
+    </footer>
+</body>
+</html>
