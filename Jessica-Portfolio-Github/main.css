@@ -1,0 +1,159 @@
+
+/* HOMEPAGE ------------------------------------------------------------------------------- */
+/* Head ------------------------------------------------------------ */
+/* General Reset */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #2E5B2E; 
+    color: #F1E2D2; 
+    text-align: center;
+    padding: 50px 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: right;
+    padding-left: 0;
+}
+
+nav a {
+    border-radius: 8px;
+    color: antiquewhite;
+    padding: 1em; 
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgb(28, 136, 39);
+}
+/* Call-to-action button styling */
+.cta-btn {
+    background-color: transparent; /* Transparent background */
+    color: #fff;
+    font-family: var(--titlefont);
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 2rem;
+    white-space: nowrap; /* Prevents wrapping */
+    padding: 1rem 3rem;
+    margin-left: 10rem; /* Spacing from other elements */
+    border: 0.3rem solid rgba(156, 175, 137, 0.8); /* Button border color */
+    border-radius: 4rem; /* Rounded button shape */
+}
+
+main {
+    background-color: #F1E2D2; 
+    color: #2E5B2E; 
+    text-align: center;
+    padding: 40px 20px;
+}
+
+section {
+    margin-bottom: 40px; 
+}
+    #intro .image {
+        flex: 1;
+        background-image: url('../img/avatar.jpg');
+        background-size: cover;
+        background-position: center;
+        border-radius: 8px;
+        height: 400px;
+    }
+    
+    #intro.content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    #intro h1 {
+        padding: 0;
+        margin: 0 0 0 0;
+        font-size: 5em;
+    }
+    
+    #intro.content p {
+        font-size: 1em;
+        line-height: 1.6;
+        margin-bottom: 1.5em;
+    }
+    
+    #intro .button {
+        display: inline-block;
+        padding: 0.8em 1.5em;
+        background-color: #2E5B2E; 
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 0.9em;
+        width: 10em;
+    }
+    
+    #intro .button:hover {
+        background-color: #2E5B2E;
+        color: #eac08c;
+        transition: .5s;
+    }
+    
+#projects{
+    background-color: #2E5B2E; 
+    color: #F1E2D2; 
+  padding: 30px;
+}
+image-container{
+        max-width: 80%; /* Limits section width */
+        max-height: 100%;
+        display: flex;
+        position: relative;
+        gap: 1.5rem; /* Space between items */
+        margin: 5rem;
+}
+#contact {
+    background: 
+    linear-gradient(to right, #F1E2D2 50%, transparent 50%),
+    linear-gradient(to right, transparent 50%, #2E5B2E 50%);
+  background-size: 100% 100%;
+  margin: 0;
+}
+contact-text{
+    float: left;
+}
+
+logo{
+    float: left;
+}
+form {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    float: right;
+        margin-right: 40px; 
+}
+
+button {
+    background-color: #2E5B2E; 
+    color: #F1E2D2; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2E5B2E; 
+    color: #F1E2D2; 
+}
